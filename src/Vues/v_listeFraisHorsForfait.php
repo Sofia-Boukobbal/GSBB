@@ -19,8 +19,8 @@
 ?>
 <hr>
 <div class="row">
-    <div class="panel panel-info">
-        <div class="panel-heading">Descriptif des éléments hors forfait</div>
+    <div class="card card-info">
+        <div class="card-header">Descriptif des éléments hors forfait</div>
         <table class="table table-bordered table-responsive">
             <thead>
                 <tr>
@@ -69,7 +69,7 @@
                 <label for="txtLibelleHF">Libellé</label>             
                 <input type="text" id="txtLibelleHF" name="libelle" class="form-control" id="text">
             </div> 
-            <div class="form-group">
+            <div class="form-group row">
                 <label for="txtMontantHF">Montant : </label>
                 <div class="input-group">
                     <span class="input-group-addon">€</span>

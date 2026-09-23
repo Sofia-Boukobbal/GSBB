@@ -28,19 +28,19 @@
 </div>
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-bookmark"></span>
+        <div class="card card-primary">
+            <div class="card-heading">
+                <h3 class="card-title">
+                    <span class="fa fa-bookmark"></span>
                     Navigation
                 </h3>
             </div>
-            <div class="panel-body">
+            <div class="card-body">
                 <div class="row">
                     <div class="col-xs-12 col-md-12">
                         <a href="index.php?uc=gererFrais&action=saisirFrais"
                            class="btn btn-success btn-lg" role="button">
-                            <span class="glyphicon glyphicon-pencil"></span>
+                            <span class="fa fa-pencil"></span>
                             <br>Renseigner la fiche de frais</a>
                         <a href="index.php?uc=etatFrais&action=selectionnerMois"
                            class="btn btn-primary btn-lg" role="button">

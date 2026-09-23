@@ -25,7 +25,7 @@
     <div class="col-md-4">
         <form action="index.php?uc=etatFrais&action=voirEtatFrais" 
               method="post" role="form">
-            <div class="form-group">
+            <div class="form-group row">
                 <label for="lstMois" accesskey="n">Mois : </label>
                 <select id="lstMois" name="lstMois" class="form-control">
                     <?php

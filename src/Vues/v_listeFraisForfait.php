@@ -32,7 +32,7 @@
                     $idFrais = $unFrais['idfrais'];
                     $libelle = htmlspecialchars($unFrais['libelle']);
                     $quantite = $unFrais['quantite']; ?>
-                    <div class="form-group">
+                    <div class="form-group row">
                         <label for="idFrais"><?php echo $libelle ?></label>
                         <input type="text" id="idFrais" 
                                name="lesFrais[<?php echo $idFrais ?>]"
