@@ -19,7 +19,7 @@
 ?>
 <hr>
 <div class="card card-primary">
-    <div class="card-heading">Fiche de frais du mois 
+    <div class="card-header">Fiche de frais du mois 
         <?php echo $numMois . '-' . $numAnnee ?> : </div>
     <div class="card-body">
         <strong><u>Etat :</u></strong> <?php echo $libEtat ?>
@@ -28,7 +28,7 @@
     </div>
 </div>
 <div class="card card-info">
-    <div class="card-heading">Eléments forfaitisés</div>
+    <div class="card-header">Eléments forfaitisés</div>
     <table class="table table-bordered table-responsive">
         <tr>
             <?php
@@ -51,7 +51,7 @@
     </table>
 </div>
 <div class="card card-info">
-    <div class="card-heading">Descriptif des éléments hors forfait - 
+    <div class="card-header">Descriptif des éléments hors forfait - 
         <?php echo $nbJustificatifs ?> justificatifs reçus</div>
     <table class="table table-bordered table-responsive">
         <tr>

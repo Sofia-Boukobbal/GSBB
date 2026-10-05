@@ -19,8 +19,8 @@
 ?>
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
-        <div class="card card-default">
-            <div class="card-heading">
+        <div class="card">
+            <div class="card-header">
                 <h3 class="card-title">Identification utilisateur</h3>
             </div>
             <div class="card-body">

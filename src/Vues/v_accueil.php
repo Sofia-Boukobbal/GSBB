@@ -29,7 +29,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="card card-primary">
-            <div class="card-heading">
+            <div class="card-header">
                 <h3 class="card-title">
                     <span class="fa fa-bookmark"></span>
                     Navigation
@@ -44,7 +44,7 @@
                             <br>Renseigner la fiche de frais</a>
                         <a href="index.php?uc=etatFrais&action=selectionnerMois"
                            class="btn btn-primary btn-lg" role="button">
-                            <span class="glyphicon glyphicon-list-alt"></span>
+                            <span class="fa fa-list-alt"></span>
                             <br>Afficher mes fiches de frais</a>
                     </div>
                 </div>
