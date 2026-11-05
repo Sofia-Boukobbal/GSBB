@@ -19,7 +19,7 @@
 ?>
 <hr>
 <div class="row">
-    <div class="card card-info">
+    <div class="border-info">
         <div class="card-header">Descriptif des éléments hors forfait</div>
         <table class="table table-bordered table-responsive">
             <thead>

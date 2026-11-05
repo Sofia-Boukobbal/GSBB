@@ -18,7 +18,7 @@
 
 ?>
 <div class="row">
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-6 offset-md-3">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Identification utilisateur</h3>
@@ -27,27 +27,29 @@
                 <form role="form" method="post" 
                       action="index.php?uc=connexion&action=valideConnexion">
                     <fieldset>
-                        <div class="form-group row">
-                            <div class="input-group row">
+                        <div class="row mb-3">
+                            <div class="row mb-3">
                                 <span class="input-group-text">
-                                    <i class="fa fa-user"></i>
+                                    <i class="bi bi-person"></i>
                                 </span>
                                 <input class="form-control" placeholder="Login"
                                        name="login" type="text" maxlength="45">
                             </div>
                         </div>
-                        <div class="form-group row">
+                        <div class="row mb-3">
                             <div class="input-group">
                                 <span class="input-group-text">
-                                    <i class="fa fa-lock"></i>
+                                    <i class="bi bi-lock"></i>
                                 </span>
                                 <input class="form-control"
                                        placeholder="Mot de passe" name="mdp"
                                        type="password" maxlength="45">
                             </div>
                         </div>
-                        <input class="btn btn-lg btn-success btn-block"
+                        <div class="d-grid">
+                        <input class="btn btn-success btn-lg"
                                type="submit" value="Se connecter">
+                        <div/>
                     </fieldset>
                 </form>
             </div>

@@ -36,7 +36,7 @@
             if ($estConnecte) {
                 ?>
             <div class="header">
-                <div class="row vertical-align">
+                <div class="row align-items-center">
                     <div class="col-md-4">
                         <h1>
                             <img src="./images/logo.jpg" class="img-responsive" 
@@ -45,29 +45,29 @@
                         </h1>
                     </div>
                     <div class="col-md-8">
-                        <ul class="nav nav-pills pull-right" role="tablist">
+                        <ul class="nav nav-pills justify-content-end" role="tablist">
                             <li <?php if (!$uc || $uc == 'accueil') { ?>class="active" <?php } ?>>
                                 <a href="index.php">
-                                    <span class="fa fa-home"></span>
+                                    <span class="bi bi-home"></span>
                                     Accueil
                                 </a>
                             </li>
                             <li <?php if ($uc == 'gererFrais') { ?>class="active"<?php } ?>>
                                 <a href="index.php?uc=gererFrais&action=saisirFrais">
-                                    <span class="fa fa-pencil"></span>
+                                    <span class="bi bi-pencil"></span>
                                     Renseigner la fiche de frais
                                 </a>
                             </li>
                             <li <?php if ($uc == 'etatFrais') { ?>class="active"<?php } ?>>
                                 <a href="index.php?uc=etatFrais&action=selectionnerMois">
-                                    <span class="fa fa-list-alt"></span>
+                                    <span class="bi bi-card-list"></span>
                                     Afficher mes fiches de frais
                                 </a>
                             </li>
                             <li 
                             <?php if ($uc == 'deconnexion') { ?>class="active"<?php } ?>>
                                 <a href="index.php?uc=deconnexion&action=demandeDeconnexion">
-                                    <span class="fa fa-log-out"></span>
+                                    <span class="bi bi-box-arrow-right"></span>
                                     Déconnexion
                                 </a>
                             </li>

@@ -50,7 +50,7 @@
         </tr>
     </table>
 </div>
-<div class="card card-info">
+<div class="card border-info mb-3">
     <div class="card-header">Descriptif des éléments hors forfait - 
         <?php echo $nbJustificatifs ?> justificatifs reçus</div>
     <table class="table table-bordered table-responsive">
