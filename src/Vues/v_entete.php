@@ -45,7 +45,8 @@
                         </h1>
                     </div>
                     <div class="col-md-8">
-                        <ul class="nav nav-pills justify-content-end" role="tablist">
+                        <ul class="nav nav-pills justify-content-end mb-3" id="pills-tab" role="tablist">
+                            
                             <li <?php if (!$uc || $uc == 'accueil') { ?>class="active" <?php } ?>>
                                 <a href="index.php">
                                     <span class="bi bi-home"></span>
@@ -69,8 +70,11 @@
                                 <a href="index.php?uc=deconnexion&action=demandeDeconnexion">
                                     <span class="bi bi-box-arrow-right"></span>
                                     Déconnexion
+                                    
                                 </a>
+                                
                             </li>
+                            
                         </ul>
                     </div>
                 </div>
