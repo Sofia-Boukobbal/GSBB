@@ -13,7 +13,7 @@
  * @license   Réseau CERTA
  * @version   GIT: <0>
  * @link      http://www.reseaucerta.org Contexte « Laboratoire GSB »
- * @link      https://getbootstrap.com/docs/3.3/ Documentation Bootstrap v3
+ * @link      https://getbootstrap.com/docs/5.3/ Documentation Bootstrap v5.3
  */
 
 ?>
@@ -24,27 +24,25 @@
                 <h3 class="card-title">Identification utilisateur</h3>
             </div>
             <div class="card-body">
-                <form role="form" method="post" 
+                <form method="post" 
                       action="index.php?uc=connexion&action=valideConnexion">
                     <fieldset>
-                        <div class="row mb-3">
-                            <div class="row mb-3">
+                        <div class="imput-group mb-3">
                                 <span class="input-group-text">
                                     <i class="bi bi-person"></i>
                                 </span>
                                 <input class="form-control" placeholder="Login"
-                                       name="login" type="text" maxlength="45">
-                            </div>
+                                       name="login" type="text" maxlength="45"
+                                       aria-label="login">
                         </div>
-                        <div class="row mb-3">
-                            <div class="input-group">
+                        <div class="input-group mb-3">
                                 <span class="input-group-text">
                                     <i class="bi bi-lock"></i>
                                 </span>
                                 <input class="form-control"
                                        placeholder="Mot de passe" name="mdp"
-                                       type="password" maxlength="45">
-                            </div>
+                                       type="password" maxlength="45"
+                                       aria_label="Mot de passe">
                         </div>
                         <div class="d-grid">
                         <input class="btn btn-success btn-lg"

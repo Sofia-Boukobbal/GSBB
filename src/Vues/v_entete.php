@@ -13,7 +13,7 @@
  * @license   Réseau CERTA
  * @version   GIT: <0>
  * @link      http://www.reseaucerta.org Contexte « Laboratoire GSB »
- * @link      https://getbootstrap.com/docs/3.3/ Documentation Bootstrap v3
+ * @link      https://getbootstrap.com/docs/5.3/ Documentation Bootstrap v5.3
  */
 
 ?>
@@ -39,7 +39,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <h1>
-                            <img src="./images/logo.jpg" class="img-responsive" 
+                            <img src="./images/logo.jpg" class="img-fluid" 
                                  alt="Laboratoire Galaxy-Swiss Bourdin" 
                                  title="Laboratoire Galaxy-Swiss Bourdin">
                         </h1>
@@ -47,32 +47,29 @@
                     <div class="col-md-8">
                         <ul class="nav nav-pills justify-content-end mb-3" id="pills-tab" role="tablist">
                             
-                            <li <?php if (!$uc || $uc == 'accueil') { ?>class="active" <?php } ?>>
-                                <a href="index.php">
-                                    <span class="bi bi-home"></span>
+                            <li class="nav-item">
+                                <a class="nav-link <?php if (!$uc || $uc == 'accueil') { ?>active<?php } ?>>
+                                    <span class="bi bi-house"></span>
                                     Accueil
                                 </a>
                             </li>
-                            <li <?php if ($uc == 'gererFrais') { ?>class="active"<?php } ?>>
-                                <a href="index.php?uc=gererFrais&action=saisirFrais">
+                            <li class="nav-item">
+                                <a class="nav-link <?php if ($uc == 'gererFrais') { ?>active<?php } ?>" href="index.php?uc=gererFrais&action=saisirFrais">
                                     <span class="bi bi-pencil"></span>
                                     Renseigner la fiche de frais
                                 </a>
                             </li>
-                            <li <?php if ($uc == 'etatFrais') { ?>class="active"<?php } ?>>
-                                <a href="index.php?uc=etatFrais&action=selectionnerMois">
+                            <li class="nav-item">
+                                <a class="nav-link <?php if ($uc == 'etatFrais') { ?>active<?php } ?>" href="index.php?uc=etatFrais&action=selectionnerMois">
                                     <span class="bi bi-card-list"></span>
                                     Afficher mes fiches de frais
                                 </a>
                             </li>
-                            <li 
-                            <?php if ($uc == 'deconnexion') { ?>class="active"<?php } ?>>
-                                <a href="index.php?uc=deconnexion&action=demandeDeconnexion">
+                            <li class="nav-item">
+                                <a clss="nav-link <?php if ($uc == 'deconnexion') { ?>active<?php } ?>" href="index.php?uc=deconnexion&action=demandeDeconnexion">
                                     <span class="bi bi-box-arrow-right"></span>
                                     Déconnexion
-                                    
                                 </a>
-                                
                             </li>
                             
                         </ul>

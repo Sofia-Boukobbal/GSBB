@@ -13,12 +13,12 @@
  * @license   Réseau CERTA
  * @version   GIT: <0>
  * @link      http://www.reseaucerta.org Contexte « Laboratoire GSB »
- * @link      https://getbootstrap.com/docs/3.3/ Documentation Bootstrap v3
+ * @link      https://getbootstrap.com/docs/5.3/ Documentation Bootstrap v5.3
  */
 
 ?>
 <hr>
-<div class="card card-primary">
+<div class="card border-primary mb-3">
     <div class="card-header">Fiche de frais du mois 
         <?php echo $numMois . '-' . $numAnnee ?> : </div>
     <div class="card-body">
@@ -27,9 +27,10 @@
         <strong><u>Montant validé :</u></strong> <?php echo $montantValide ?>
     </div>
 </div>
-<div class="card card-info">
+<div class="card border-info mb-3">
     <div class="card-header">Eléments forfaitisés</div>
-    <table class="table table-bordered table-responsive">
+        <div class="table-responsive">
+            <table class="table table-bordered"> 
         <tr>
             <?php
             foreach ($lesFraisForfait as $unFraisForfait) {
@@ -50,10 +51,12 @@
         </tr>
     </table>
 </div>
+</div>
 <div class="card border-info mb-3">
     <div class="card-header">Descriptif des éléments hors forfait - 
         <?php echo $nbJustificatifs ?> justificatifs reçus</div>
-    <table class="table table-bordered table-responsive">
+    <div class="table-responsive">
+    <table class="table table-bordered">
         <tr>
             <th class="date">Date</th>
             <th class="libelle">Libellé</th>
@@ -73,4 +76,5 @@
         }
         ?>
     </table>
+  </div>
 </div>

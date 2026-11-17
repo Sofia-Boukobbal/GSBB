@@ -19,9 +19,10 @@
 ?>
 <hr>
 <div class="row">
-    <div class="border-info">
+    <div class="card border-info mb-3">
         <div class="card-header">Descriptif des éléments hors forfait</div>
-        <table class="table table-bordered table-responsive">
+        <div class="table-responsive">
+        <table class="table table-bordered ">
             <thead>
                 <tr>
                     <th class="date">Date</th>
@@ -60,17 +61,17 @@
     <div class="col-md-4">
         <form action="index.php?uc=gererFrais&action=validerCreationFrais" 
               method="post" role="form">
-            <div class="form-group">
+            <div class="mb-3">
                 <label for="txtDateHF">Date (jj/mm/aaaa): </label>
                 <input type="date" id="txtDateHF" name="dateFrais" 
                        class="form-control" id="text">
             </div>
-            <div class="form-group">
+            <div class="mb-3">
                 <label for="txtLibelleHF">Libellé</label>             
                 <input type="text" id="txtLibelleHF" name="libelle" class="form-control" id="text">
             </div> 
-            <div class="form-group row">
-                <label for="txtMontantHF">Montant : </label>
+            <div class="mb-3">
+                <label for="txtMontantHF" class="form-label">Montant : </label>
                 <div class="input-group">
                     <span class="input-group-addon">€</span>
                     <input type="text" id="txtMontantHF" name="montant" class="form-control" value="">
