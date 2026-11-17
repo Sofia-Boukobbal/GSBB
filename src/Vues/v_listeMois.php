@@ -26,7 +26,7 @@
         <form action="index.php?uc=etatFrais&action=voirEtatFrais" 
               method="post" role="form">
             <div class="row mb-3">
-                <label for="lstMois" accesskey="n">Mois : </label>
+                <label for="lstMois" accesskey="n" class="form-label">Mois : </label>
                 <select id="lstMois" name="lstMois" class="form-control">
                     <?php
                     foreach ($lesMois as $unMois) {

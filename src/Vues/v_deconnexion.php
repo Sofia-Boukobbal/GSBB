@@ -13,12 +13,12 @@
  * @license   Réseau CERTA
  * @version   GIT: <0>
  * @link      http://www.reseaucerta.org Contexte « Laboratoire GSB »
- * @link      https://getbootstrap.com/docs/3.3/ Documentation Bootstrap v3
+ * @link      https://getbootstrap.com/docs/5.3/ Documentation Bootstrap v5.3
  */
 
 ?>
 <div class="alert alert-info" role="alert">
-    <p>Vous avez bien été déconnecté ! <a href="index.php">Cliquez ici</a>
+    <p class="mb-0">Vous avez bien été déconnecté ! <a href="index.php" class="alert-link">Cliquez ici</a>
         pour revenir à la page de connexion.</p>
 </div>
 <?php
