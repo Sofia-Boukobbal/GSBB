@@ -27,25 +27,26 @@
                 <form method="post" 
                       action="index.php?uc=connexion&action=valideConnexion">
                     <fieldset>
-                        <div class="imput-group mb-3">
+                        <div class="row mb-3">
+                            <div class="input-group">
                                 <span class="input-group-text">
-                                    <i class="bi bi-person"></i>
+                                    <i class="bi bi-person-bounding-box"></i>
                                 </span>
                                 <input class="form-control" placeholder="Login"
-                                       name="login" type="text" maxlength="45"
-                                       aria-label="login">
+                                       name="login" type="text" maxlength="45">
                         </div>
+                        </div>
+                        <div class="row mb-3">
                         <div class="input-group mb-3">
+                            <div class="input-group">
                                 <span class="input-group-text">
-                                    <i class="bi bi-lock"></i>
+                                    <i class="bi bi-lock-fill"></i>
                                 </span>
-                                <input class="form-control"
-                                       placeholder="Mot de passe" name="mdp"
-                                       type="password" maxlength="45"
-                                       aria_label="Mot de passe">
-                        </div>
-                        <div class="d-grid">
-                        <input class="btn btn-success btn-lg"
+                                <input class="form-control" placeholder="Mot de passe"
+                                       name="mdp" type="password" maxlength="45">
+                            </div>
+                          </div>
+                        <input class="btn-lg btn btn-success w-100 "
                                type="submit" value="Se connecter">
                         <div/>
                     </fieldset>
