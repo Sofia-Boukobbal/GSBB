@@ -38,9 +38,9 @@
                 ?>
             <div class="header">
                 <div class="row align-items-center">
-                    <div class="col-md-4">
+                    <div class="col-md-8">
                         <h1>
-                            <img src="./images/logo.jpg" class="img-fluid" 
+                            <img src="./images/logo.jpg" class="img-responsive center-block" 
                                  alt="Laboratoire Galaxy-Swiss Bourdin" 
                                  title="Laboratoire Galaxy-Swiss Bourdin">
                         </h1>
@@ -82,7 +82,7 @@
                 ?>   
                 <h1>
                     <img src="./images/logo.jpg"
-                         class="img-responsive center-block"
+                         class="rounded mx-auto d-block"
                          alt="Laboratoire Galaxy-Swiss Bourdin"
                          title="Laboratoire Galaxy-Swiss Bourdin">
                 </h1>
