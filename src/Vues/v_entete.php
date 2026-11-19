@@ -27,6 +27,7 @@
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./styles/bootstrap/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
         <link href="./styles/style.css" rel="stylesheet">
     </head>
     <body>
@@ -48,8 +49,8 @@
                         <ul class="nav nav-pills justify-content-end mb-3" id="pills-tab" role="tablist">
                             
                             <li class="nav-item">
-                                <a class="nav-link <?php if (!$uc || $uc == 'accueil') { ?>active<?php } ?>>
-                                    <span class="bi bi-house"></span>
+                                <a class="nav-link <?php if (!$uc || $uc == 'accueil') { ?>active<?php } ?>"href="index.php?uc=accueil">
+                                    <span class= "bi bi-house"></span>
                                     Accueil
                                 </a>
                             </li>
